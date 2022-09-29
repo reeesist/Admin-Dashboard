@@ -14,7 +14,7 @@
 }
 
 nav {
-    background-color: aquamarine;
+    background-color:rgb(207, 220, 248);
     display: grid;
     grid-template-rows: 30px 1fr 2fr;
     padding-left: 6vh;
@@ -53,6 +53,6 @@ nav {
     gap: 20px;
     align-items: center;
     font-weight: 500;
-    color: azure;  
+    color: rgb(0, 0, 0);  
     font-size: 1.4rem;
 }
