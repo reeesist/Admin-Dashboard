@@ -15,6 +15,11 @@
 
 nav {
     background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 30px 1fr 2fr;
+    padding-left: 6vh;
+    padding-top: 5vh;
+    gap: 70px;
 }
 
 .main {
@@ -31,4 +36,23 @@ nav {
 
 .rightSide {
     background-color: brown;
+}
+
+.icon {
+    height: 32px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 500;
+    color: azure;  
+    font-size: 1.4rem;
 }
