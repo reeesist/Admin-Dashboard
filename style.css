@@ -14,7 +14,7 @@
 }
 
 nav {
-    background-color:rgb(207, 220, 248);
+    background-color:rgb(218, 152, 198);
     display: grid;
     grid-template-rows: 30px 1fr 2fr;
     padding-left: 6vh;
@@ -23,19 +23,19 @@ nav {
 }
 
 .main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 240, 186);
     display: grid;
     grid-template-rows: 1fr 4fr;
 }
 
 .mainContent {
-    background-color: blueviolet;
+    background-color: rgb(201, 233, 203);
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
 
 .rightSide {
-    background-color: brown;
+    background-color: rgb(255,190,188);
 }
 
 .icon {
@@ -64,7 +64,7 @@ nav {
     grid-template-columns: 3fr 1.2fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
-    height: 100%;
+    height: 100%;    
 }
 
 .iconMain {
@@ -88,7 +88,7 @@ nav {
     padding-left: 20px;
     height: 35px;
     width: 700px;
-    color: #475569;
+    color: #666947;
 }
 
 .banner {
@@ -101,6 +101,7 @@ nav {
     padding-left: 7vh;
 }
 
+
 .ryskus {
     font-size: larger;
     font-weight: 600;
@@ -108,7 +109,7 @@ nav {
 
 button {
     border: none;
-    background-color: #10b981;
+    background-color: rgb(164, 209, 167);
     border-radius: 25px;
     padding: 8px 30px;
     font-size: 1.1rem;
@@ -122,4 +123,34 @@ button {
 
 .banner2 {
     padding-left: 75px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+.box {
+    background-color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 9px;
+    border-left: 7px solid rgb(255,190,188);
+    color: rgb(90, 88, 88);
+}
+
+.bo {
+    font-weight: 600;
+    font-size: large;
+    padding-bottom: 3px;
+    color: black;
+}
+
+h2 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
