@@ -23,7 +23,7 @@ nav {
 }
 
 .main {
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-rows: 1fr 4fr;
 }
@@ -55,4 +55,71 @@ nav {
     font-weight: 500;
     color: rgb(0, 0, 0);  
     font-size: 1.4rem;
+}
+
+
+
+.flex {
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+}
+
+.iconMain {
+    height: 32px;
+}
+
+.iconMain1 {
+    height: 42px;
+}
+
+.icon2 {
+    height: 52px;
+}
+
+.input {
+    height: 32px;
+    background-color: #f1f5f9;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    height: 35px;
+    width: 700px;
+    color: #475569;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner1 {
+    padding-left: 7vh;
+}
+
+.ryskus {
+    font-size: larger;
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    background-color: #10b981;
+    border-radius: 25px;
+    padding: 8px 30px;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.ryskus {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.banner2 {
+    padding-left: 75px;
 }
