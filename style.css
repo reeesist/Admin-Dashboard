@@ -34,9 +34,6 @@ nav {
     grid-template-columns: 3fr 1fr;
 }
 
-.rightSide {
-    background-color: rgb(255,190,188);
-}
 
 .icon {
     height: 32px;
@@ -142,15 +139,45 @@ button {
     color: rgb(90, 88, 88);
 }
 
-.bo {
+.bo, .opa {
     font-weight: 600;
     font-size: large;
     padding-bottom: 3px;
     color: black;
 }
 
-h2 {
+.projects h2 {
     padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
+}
+
+.rightSide {
+    background-color: rgb(201, 233, 203);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0.5rem;
+    gap: 1rem;
+    color: rgb(90, 88, 88);
+}
+
+.two {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 6px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.rightSide h2 {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    color: black;
+}
+
+.two > div {
+    border-bottom:2px solid #b5b8bb;
+    padding-bottom: 10px;
 }
