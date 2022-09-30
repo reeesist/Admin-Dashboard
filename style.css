@@ -31,7 +31,7 @@ nav {
 .mainContent {
     background-color: rgb(201, 233, 203);
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
 }
 
 
@@ -125,7 +125,7 @@ button {
 .boxes {
     display: grid;
     grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(4, 200px);
     gap: 1rem;
     padding: 0.5rem;
     justify-content: center;
@@ -147,7 +147,7 @@ button {
 }
 
 .projects h2 {
-    padding-left: 2rem;
+    padding-left: 4.7rem;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
 }
@@ -156,7 +156,7 @@ button {
     background-color: rgb(201, 233, 203);
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 0.5rem;
+    padding: 0.5rem 3rem 0.5rem 0;
     gap: 1rem;
     color: rgb(90, 88, 88);
 }
@@ -180,4 +180,29 @@ button {
 .two > div {
     border-bottom:2px solid #b5b8bb;
     padding-bottom: 10px;
+}
+
+
+.trending {
+    display: flex;
+    gap: 10px;
+}
+
+.two1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 6px;
+    padding: 25px 10px;
+    gap: 15px;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.imgMini {
+    width: 32px;
+    height: 32px;
+}
+
+.trendingText {
+    width: 100%;
 }
